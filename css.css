@@ -8,6 +8,7 @@ a {
   display: inline-block;
   color: #888888;
   text-decoration: none;
+  width: 100%;
 }
 .column {
   display: inline-block;
