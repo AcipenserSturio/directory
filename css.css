@@ -2,7 +2,7 @@ body {
   background-color: #000000;
   font-family:  "Palatino Linotype", "Book Antiqua", serif;
   font-size: 1.7vw;
-  line-height: 2.8vw;
+  line-height: 3vw;
 }
 a {
   display: inline-block;
@@ -14,7 +14,7 @@ a {
 }
 .column {
   display: inline-block;
-  width: 30vw;
+  width: 23vw;
   vertical-align: top;
 }
 .button {
