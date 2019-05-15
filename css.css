@@ -2,14 +2,13 @@ body {
   background-color: #000000;
   font-family:  "Palatino Linotype", "Book Antiqua", serif;
   font-size: 1.7vw;
+  line-height: 3vw;
 }
 a {
   display: inline-block;
   color: #888888;
   text-decoration: none;
   width: 100%;
-  word-wrap: normal;
-  padding: 0.4vw 0;
 }
 .column {
   display: inline-block;
@@ -21,7 +20,6 @@ a {
   border-top: 0.1vw solid #888888;
   border-left: 0.5vw solid #888888;
   border-right: 0.5vw solid #888888;
-  padding: 0 0.4vw;
 }
 .bottom {
   border-bottom: 0.5vw solid #888888;
