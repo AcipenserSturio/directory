@@ -1,39 +1,44 @@
 body {
   background-color: #000000;
-  font-family:  "Palatino Linotype", "Book Antiqua", serif;
+  font-family:  CrimsonText, "Crimson Text", "Palatino Linotype", "Book Antiqua", serif;
   font-size: 1.7vw;
   line-height: 2.7vw;
 }
 a {
   display: inline-block;
-  color: #888888;
+  color: #ffffff;
   text-decoration: none;
   width: 100%;
 }
 .column {
   display: inline-block;
-  width: 24vw;
+  width: 18.5vw;
   vertical-align: top;
 }
 .button {
-  background-color: #111111;
-  border-top: 0.1vw solid #888888;
-  border-left: 0.5vw solid #888888;
-  border-right: 0.5vw solid #888888;
+  background-color: #000000;
+  border-top: 0.1vw solid #ffffff;
+  border-left: 0.5vw solid #ffffff;
+  border-right: 0.5vw solid #ffffff;
 }
 .bottom {
-  border-bottom: 0.5vw solid #888888;
+  border-bottom: 0.5vw solid #ffffff;
   border-bottom-left-radius: 2vw;
   border-bottom-right-radius: 2vw;
   margin-bottom: 0.5vw;
 }
 .top {
-  background-color: #888888;
+  background-color: #ffffff;
   border-top-left-radius: 2vw;
   border-top-right-radius: 2vw;
   font-weight: bold;
   font-size: 2vw;
-  color: #222222;
+  color: #000000;
+}
+
+@font-face {
+	font-family: CrimsonText;
+	src: url(CrimsonText.ttf);
 }
 /* .utilities { background-color: #cccccc; }
 .google { background-color: #cccccc; }
